@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Waste</title>
+    <link rel="stylesheet" href="pg_contribua.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <navbar id="navbar">
+        <div class="navbar-container">
+            <a href="pg_home.html"><img src="pg_contribua/logo_.png" alt="" class="logo" /></a>
+            <ul class="navbar-items">
+                <li class="navbar-items">Sobre Nós</li>
+                <li class="navbar-items">Como Ajudar</li>
+            </ul>
+        </div>
+    </navbar>
+
+    <!-- Main -->
+    <main id="main">
+        <div class="main-container">
+
+            <div class="main-container-logo">
+                <a href="pg_home.html"><img src="pg_contribua/logo_.png" alt="" class="logo" /></a>
+            </div>
+
+            <form id="form">
+                <br><br>
+                <hr>
+                <br>
+                <label for="cpf">CPF</label>
+                <br>
+                <input type="text" id="cpf" required>
+                <br><br>
+                <label for="Nome">NOME</label>
+                <br>
+                <input type="text" id="nome" required>
+                <br><br>
+                <label for="Sobrenome">SOBRENOME</label>
+                <br>
+                <input type="text" id="Sobrenome" required>
+                <br><br>
+                <label for="Email">EMAIL</label>
+                <br>
+                <input type="email" id="email" required>
+                <br><br>
+                <label for="Telefone">TELEFONE</label>
+                <br>
+                <input type="tel" id="Telefone" required>
+                <br><br>
+                <hr>
+                <br>
+                <label for="periodo">PERIODICIDADE</label>
+                <br>
+                <select name="periodo" class="periodo-post">
+                    <option value="uma-vez">Uma Vez</option>
+                    <option value="mensal">Mensal</option>
+                    <option value="trimestral">Trimestral</option>
+                    <option value="anual">Anual</option>
+                    <br>
+                    <br>
+                    <label for="valor">VALOR</label>
+                    <br>
+                    <input type="text" required placeholder="R$ 30,00">
+                </select>
+                <br>
+                <br>
+                <input type="checkbox" id="check1" required>
+                <label for="check1">Aceito o envio de informações para a E-Waste</label>
+                <br>
+                <input type="checkbox" id="check2" required>
+                <label for="check2">Li e aceito termo de privacidade</label>
+                <br><br>
+                <input type="submit" value="ENVIAR" class="button">
+                <br>
+                <br>
+                <hr>
+            </form>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="footer-content">
+            <div class="socials">
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook-f"></i>
+            </div>
+        </div>
+        <div class="footer-info">
+            <div class="rights">
+                <div class="country">
+                    <p>Brasil</p>
+                    <img src="pg_contribua/brazil.png" class="brazil-flag" />
+                </div>
+                <p>&copy; 2022 E-Waste</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://kit.fontawesome.com/f9e19193d6.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
